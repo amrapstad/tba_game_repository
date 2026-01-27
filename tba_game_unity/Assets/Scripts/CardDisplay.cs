@@ -9,12 +9,14 @@ public class CardDisplay : MonoBehaviour
     
     public Card cardData;
 
-
+    public Image cardImage;
+    public Image Image;
+    public TMP_Text maxUsesText;
+    public TMP_Text useRemainingText;
     public TMP_Text nameText;
     public TMP_Text descriptionText;
     public TMP_Text damageText;
     public Image[] typeImages;
-    public Image cardImage;
 
     public string damageType;
     public string healType;
@@ -32,6 +34,9 @@ public class CardDisplay : MonoBehaviour
         // Basic info
         nameText.text = cardData.cardName;
         descriptionText.text = cardData.description;
+        Image.sprite = cardData.Image;
+        maxUsesText.text = cardData.maxUses.ToString();
+        useRemainingText.text = cardData.useRemaining.ToString();
 
         effects.Clear();
 

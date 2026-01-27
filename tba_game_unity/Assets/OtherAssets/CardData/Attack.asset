@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Attack
   m_EditorClassIdentifier: Assembly-CSharp::CardGame.Card
   cardName: Attack
+  Image: {fileID: 1426590355, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
   effects:
   - effectType: 0
-    effectValue: 3
+    effectValue: 5
     damageType: 0
     healType: 2
     buffType: 2
-  description: You can never go wrong with a normal attack
+  maxUses: 10
+  useRemaining: 10
+  description: Attack, perhaps the most valuable card in existance

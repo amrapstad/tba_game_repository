@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Heal
   m_EditorClassIdentifier: Assembly-CSharp::CardGame.Card
   cardName: Heal
+  Image: {fileID: -1552747657, guid: 132358e9bf26b60458b731bf001e31db, type: 3}
   effects:
   - effectType: 1
     effectValue: 5
     damageType: 2
     healType: 1
     buffType: 2
-  description: Ahhhh, heal. A useful spell!
+  maxUses: 3
+  useRemaining: 3
+  description: Ahhh. Heal. You better have a lot of this. This card heals for 5hp

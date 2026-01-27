@@ -10,11 +10,11 @@ namespace CardGame
     [CreateAssetMenu(fileName = "NewCard", menuName = "Card")]
     public class Card : ScriptableObject
     {
-        // Card Name
         public string cardName;
-
-        // A card can have multiple effects
+        public Sprite Image;
         public List<CardEffect> effects;
+        public int maxUses;
+        public int useRemaining;
 
         // Card Description
         [TextArea(3, 6)]
