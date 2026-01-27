@@ -9,11 +9,12 @@ public class CardDisplay : MonoBehaviour
     
     public Card cardData;
 
-    public Image cardImage;
+
     public TMP_Text nameText;
     public TMP_Text descriptionText;
     public TMP_Text damageText;
     public Image[] typeImages;
+    public Image cardImage;
 
     public string damageType;
     public string healType;
