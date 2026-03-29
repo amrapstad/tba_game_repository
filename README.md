@@ -3,7 +3,7 @@
 ## Overview
 Project TBA is a 3D First-Person Unity game integrating a card-based mechanic to handle abilities/effects along with traditional first-person movement and enemy interactions.
 
-[DEMO](github_demo/demo_unity_game.mp4)
+[DEMO](github_demo/demo_unity_game.gif)
 
 ## What Has Been Done
 Currently, the following core features are implemented:
